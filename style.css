@@ -1,0 +1,312 @@
+body{
+    background-color: rgba(190, 188, 188, 0.142);
+}
+/* header */
+header{
+   position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    padding: 2px;
+    margin-top: -10px;
+}
+table{
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+table a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: Arial;
+    text-transform: capitalize; 
+    padding-left: 40px;
+}
+table a:hover{
+    color: rgb(229, 94, 17);
+}
+/* contenet */
+#content{
+    background-color:  rgb(229, 94, 17);
+}
+#content img{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: 930px;
+}
+#carre{
+    background-color:rgb(52, 52, 52);
+    color: white;
+    text-transform: capitalize;
+    border-radius: 13px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    width: 405px;
+    position: absolute;
+    font-family: arial narrow;
+    top: 21%;
+    right: 9%;
+    /* right: 150px; */
+    /* line-height: 0.9; */
+}
+#carre #ph1{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+#carre #ph2{
+    font-family: arial narrow;
+    font-size: 55px;
+    font-weight: bold;
+
+}
+#carre #ph3{
+    font-size: 17px;
+    
+}
+#carre a{
+   text-decoration: underline;
+   color: white;
+}
+/* troisDiv */
+#idTroisDiv{
+    margin-left: 20%;
+
+}
+.troisDiv{
+    background-color: white;
+    padding: 60px;
+    display: inline-block;
+    border-radius: 9px;
+    margin-top: 100px;
+    position: relative;
+    width: 180px;
+}
+.interieur{
+    width: 280px;
+        left:0px ;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(16, 31, 40);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    font-family: arial narrow;
+    font-size: large;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    line-height: 10px;
+}
+.dollar{
+    font-size: 40px;
+    font-family: Arial Black;
+ 
+}
+.divTall{
+    text-align: center;
+    font-family: arial narrow;
+    font-size: 18px;
+}
+button{
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 0px;
+    border:solid 0px rgba(128, 128, 128, 0.773);
+    
+}
+footer{
+    text-align: center;
+    background-color:rgba(36, 38, 39, 0.929) ;
+    color: white;
+    height: 150px;
+    margin-top: 80px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    color: rgba(23, 111, 212, 0.7);
+}
+/* ----------------------------Page2--------------------------------- */
+#contentPage2{
+background-color:rgba(229, 95, 17, 0.916) ;
+margin:0% 15% -80px 27% ;
+height: 710px;
+}
+#contentPage2 img{
+    border-radius: 50%;
+    width: 50%;
+    position: relative;
+    top: 20%;
+    right: 25%;
+}
+#textp2{
+    margin-left: 30%;
+    margin-right: 6%;
+    margin-top: -40%;
+    color: white;
+}
+#textp2 h1{
+   font-size: 92px;
+}
+#textp2 p{
+    font-size: 26px;
+    font-family: Calibri Light ;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+ }
+ #textp2 a{
+   color: white;
+ }
+ #buttonp2{
+    text-transform: uppercase;
+    padding: 15px 85px;
+    border-radius: 0px;
+    border:solid 0px white;
+    font-family: Calibri Light;
+    letter-spacing: 2px;
+ }
+ #buttonp2:hover{
+    color:  rgb(229, 94, 17);
+ }
+ /* ----------------------------Page3--------------------------------- */
+ #contentPage3{
+    background-color:#677982 ;
+    margin-bottom: -80px ;
+    margin-top: -45px;
+    height: 910px;
+    }
+#contentPage3 h1{
+      font-size: 4.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #f39558;
+      font-family:  sans-serif;
+      padding-left: 12%;
+      padding-top: 5%;
+      padding-right: 15%;
+        }
+#contentPage3 p{
+    font-size: 1.25rem;
+    font-style: italic;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 12%;
+     margin-top: -35px;
+     padding-right: 51%;
+              }
+#div2divText{
+    height: 500px;
+    background-color: white;
+    margin-right:60%;
+    margin-top: 90px;
+    margin-left: 12%;
+    
+}
+#div2divText p{
+    color: black;
+    padding-top: 30px;
+    padding-right: 30px;
+    line-height: 2;
+    font-size: 1.125rem;
+    font-style: normal;
+}
+#div2divText a{
+    color: black;
+}
+#div2divText a:hover{
+    text-decoration: none;
+}
+#cercle{
+    height: 70px;
+    margin: 30px 305px 0px 50px;
+    background-color: #f39558;
+    border-radius: 50%;
+} 
+#div2divImg img{
+   width: 48.8%;
+   position: absolute;
+   top: 61.6%;
+   left: 40%;
+
+ }
+ @media screen and (max-width: 1150px) {
+     table{
+         margin-left: -35px;
+      }
+    #content img{
+        width: 700px;
+        top: 200px;
+    }
+    #carre{
+        width: 320px;
+        right: 30px;
+    }
+    #idTroisDiv{
+        margin-left: 19%;
+    
+    }
+    .troisDiv{
+        width: 120px;
+    }
+    .interieur{
+        width: 220px;
+    }
+  }        
+  @media screen and (max-width: 915px) {
+    #content{
+       height: 400px;
+    }
+    #content img{
+        width: 500px;
+    }
+    #carre{
+        width: 270px;
+        top: 20%;
+    }
+    #carre #ph1{
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    #carre #ph2{
+        font-size: 45px;
+    }
+    #idTroisDiv{
+        margin-left: 30%;
+    }
+    .troisDiv{
+        width: 220px;
+        display: block;
+        margin-left: 30%;
+    }
+    .interieur{
+        width: 320px;
+    }
+/* -------------------------------------------------try---------- */
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+      }
+      
+      .nav-list {
+        display: none;
+        /* flex-direction: column;
+        align-items: center; */
+      }
+      
+      .nav-list td {
+        display: block;
+        margin: 10px 0;
+      }
+      
+      .nav-list.open {
+        display: block;
+      }
+ } 
